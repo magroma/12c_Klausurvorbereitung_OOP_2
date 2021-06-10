@@ -9,11 +9,11 @@ public class Test {
 	private int age;
 	
 	// Sichtbarkeit | access (access modifiers)
-	// public --> alle d�rfen sehen/schreiben (+)
+	// public --> alle dürfen sehen/schreiben (+)
 	// private --> NUR die eigene Klasse / Objekt (-)
 	// protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
 	
-	public Test(String name, int age) {
+	public Test(String name, int age) {   // Konstruktor / Constructor!!!! MERK DIR'S ENDLICH!!!!!
 		this.name = name;
 		this.age = age;
 	}
@@ -21,14 +21,14 @@ public class Test {
 	/**
 	 * @return the name
 	 */
-	public String getName() {
-		return name;
+	public String getName() {   // Getter, um die privaten Variablen in die "App" weiterzuleiten.
+		return name; 
 	}
 
 	/**
 	 * @param name the name to set
 	 */
-	public void setName(String name) {
+	public void setName(String name) {    // Setter
 		this.name = name;
 	}
 
